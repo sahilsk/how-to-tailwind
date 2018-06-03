@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="mx-auto bg-white font-sans relative">
+
+    <!-- top nav-->
+    <div class="fixed w-full z-100 bg-white border-b-2 border-b-grey-dark">
+        <div class="container flex mx-auto  mb-2 my-2 justify-between">
+            <div class="w-1/5 align-middle">
+
+                <a href="/" class=" align-middle align-text-middle">
+                    <svg class="w-8 h-8 lg:w-12 lg:h-12 inline-block align-middle" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5 11.1C15.3 3.9 19.8.3 27 .3c10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 27.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
+                            transform="translate(5 16)" fill="#51D88A" fill-rule="evenodd"></path>
+                    </svg>
+                    <span class="mx-5 inline-block text-grey">v0.5.3 </span>
+                </a>
+            </div>
+            <div class="w-3/5 pl-8">
+
+                <div class="relative rounded-sm focus:bg-white">
+                    <span class="absolute pin-t pin-l align-middle mx-2">
+                        <i class="fas fa-search h-8 w-8 align-middle fill-current text-grey inline-block"></i>
+                    </span>
+                    <input placeholder="Search the docs" class="bg-grey-lighter align-middle border-reset focus:bg-white w-full pl-8 py-3" />
+                </div>
+            </div>
+            <div class="flex justify-center w-1/5 mx-1">
+                <i class="fab fa-github  h-12 w-12 mx-1 fill-current text-grey inline-block"></i>
+                <i class="fab fa-twitter h-12 w-12 mx-1 fill-current text-grey inline-block"></i>
+                <i class="fab fa-slack   h-12 w-12 mx-1 fill-current text-grey inline-block"></i>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- /nav-->
+
+    <!-- secondary nav-->
+    <div class="container flex mx-auto relative top-32 pt-18">
+       
+        <div class="w-1/5 z-90 satic top-16 h-screen overflow-y-scroll pb-16">
+
+            <h4 class="text-grey"> INTROUCTION </h4>
+            <ul class="list-reset text-sm  my-3 mb-8">
+                <li class="leading-loose">
+                     <a href="#" class="text-teal selected"> 
+                         What is Tailwind
+
+                     </a> 
+                </li>
+            </ul>
+
+            <h4 class="text-grey"> GETTING STARTED </h4>
+            <ul class="list-reset text-sm my-3">
+                <li class=" leading-loose">                     
+                     <a href="#" class="hover:border-b-grey,border-b-2"> 
+                        Installation
+                    </a>
+                    </li>
+                <li class=" leading-loose"> Configuration </li>
+                <li class=" leading-loose"> colors </li>
+                <li class=" leading-loose"> Responsive Design </li>
+                <li class=" leading-loose"> State Variants </li>
+                <li class=" leading-loose"> Adding New Utilities </li>
+            </ul>
+
+
+            <h4 class="text-grey"> FLEXBOX </h4>
+            <ul class="list-reset text-sm my-3">
+                <li class=" leading-loose"> Display </li>
+                <li class=" leading-loose"> Flex Direction </li>
+                <li class=" leading-loose"> Flex Wrapping </li>
+                <li class=" leading-loose"> Align Items </li>
+                <li class=" leading-loose"> Align Content </li>
+                <li class=" leading-loose"> Align Self </li>
+            </ul>
+
+            <h4 class="text-grey"> LAYOUT </h4>
+            <ul class="list-reset text-sm my-3">
+                <li class=" leading-loose"> Container </li>
+                <li class=" leading-loose"> Display </li>
+                <li class=" leading-loose"> Floats </li>
+                <li class=" leading-loose"> Overflow </li>
+                <li class=" leading-loose"> Position </li>
+                <li class=" leading-loose"> Visibility </li>
+                <li class=" leading-loose"> Z-Index </li>
+
+            </ul>
+
+            <h4 class="text-grey"> LAYOUT </h4>
+            <ul class="list-reset text-sm my-3">
+                <li class=" leading-loose"> Container </li>
+                <li class=" leading-loose"> Display </li>
+                <li class=" leading-loose"> Floats </li>
+                <li class=" leading-loose"> Overflow </li>
+                <li class=" leading-loose"> Position </li>
+                <li class=" leading-loose"> Visibility </li>
+                <li class=" leading-loose"> Z-Index </li>
+            </ul>
+
+        </div>
+        <div class="w-3/5 pl-8 mt-8 relative z-0">
+
+            <h1 class="font-sans">What is Tailwind?</h1>
+            <h3 class="text-grey my-2">Tailwind is a utility-first CSS framework for rapidly building custom user interfaces </h3>
+
+            <p class="leading-normal my-2 text-base font-sans">
+
+                Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit.
+            </p>
+            <p class="leading-normal my-2 text-base font-sans">
+                It doesn't have a default theme, and there are no built-in UI components.
+            </p>
+            <p class="leading-normal my-2 text-base font-sans">
+                On the flip side, it also has no opinion about how your site should look and doesn't impose design decisions that you have
+                to fight to undo.
+            </p>
+            <p class="leading-normal my-2 text-base font-sans">
+                If you're looking for a framework that comes with a menu of predesigned widgets to build your site with, Tailwind might not
+                be the right framework for you.
+            </p>
+            <p class="leading-normal my-2 text-base font-sans">
+                But if you want a huge head start implementing a custom design with its own identity, Tailwind might be just what you're
+                looking for.
+            </p>
+
+        </div>
+        <div class="w-1/5 sticky pt-8 ml-8">
+
+            <ul class="list-reset text-grey text-sm" >
+                <li class="leading-loose"><a href="#" class="text-grey" > Utility-first         </a></li>   
+                <li class="leading-loose"><a href="#" class="text-grey" > Component-friendly </a></li>
+                <li class="leading-loose"><a href="#" class="text-grey" > Responsive to the core </a></li>
+                <li class="leading-loose"><a href="#" class="text-grey" > Designed to be customized </a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
